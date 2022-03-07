@@ -12,3 +12,7 @@ NuevaHoja.write("A1","Hola mundo! :)")
 
 #cerrando la hoja y guardando los cambios
 libro.close()
+
+#abriendo el archivo
+from os import system
+system("Hola.xlsx")

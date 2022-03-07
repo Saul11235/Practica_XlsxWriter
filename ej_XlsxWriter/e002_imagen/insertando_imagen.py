@@ -11,3 +11,7 @@ hoja.insert_image("B2","EjemploImagen.png")
 #grabando el libro
 libro.close()
 
+#abriendo el libro
+from os import system
+system("LibroConImagen.xlsx")
+
